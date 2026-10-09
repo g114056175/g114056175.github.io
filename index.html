@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111916">
+  <meta name="description" content="g114056175 的個人研究與開發紀錄：語音簡報、數位人、NILM 與 Windows 工具。">
+  <title>g114056175 · Research & Projects</title>
+  <link rel="canonical" href="https://g114056175.me/">
+  <meta property="og:title" content="g114056175 · Research & Projects">
+  <meta property="og:description" content="研究、實驗，以及讓日常工作更順手的小工具。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://g114056175.me/">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="g114056175 首頁"><span class="brand-mark" aria-hidden="true">g.</span>g114056175</a>
+      <nav aria-label="主要導覽">
+        <a href="#research">研究方向</a>
+        <a href="#projects">專案</a>
+        <a href="#links">相關連結</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero-copy">
+          <p class="eyebrow">PERSONAL NOTES / RESEARCH & DEVELOPMENT</p>
+          <h1 id="intro-title">研究、實驗，<br>也做一些<span>實用的小工具。</span></h1>
+          <p class="intro">我是 g114056175。這裡記錄我的 AI 實驗、研究方向與 side projects，從語音簡報、數位人，到 Windows 桌面工具。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">看看專案</a>
+            <a class="button button-secondary" href="https://github.com/g114056175" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+        <aside class="now-panel" aria-labelledby="now-title">
+          <div class="panel-heading"><h2 id="now-title">近期關注</h2><span>WORK IN PROGRESS</span></div>
+          <ol class="now-list">
+            <li><span class="number">01</span><div><h3>讓簡報開口說話</h3><p>講稿、語音生成、字幕與影片輸出</p></div></li>
+            <li><span class="number">02</span><div><h3>讓數位角色自然互動</h3><p>口型同步、Live2D 與即時呈現</p></div></li>
+            <li><span class="number">03</span><div><h3>把日常操作變得順手</h3><p>錄影、視窗預覽與桌面工具</p></div></li>
+          </ol>
+          <p class="panel-note">持續比較方法，也保留實驗中的限制。</p>
+        </aside>
+      </section>
+
+      <section id="research" class="section" aria-labelledby="research-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / EXPLORATIONS</p><h2 id="research-title">目前探索的方向</h2></div><p>從模型效果，到實際使用。</p></div>
+        <div class="research-grid">
+          <article class="research-item"><span class="topic-label">SPEECH & MULTIMEDIA</span><h3>語音與簡報生成</h3><p>整合 TTS、參考音色、字幕對齊與影片輸出，探索可修改、可重生的內容製作流程。</p></article>
+          <article class="research-item"><span class="topic-label">DIGITAL HUMAN</span><h3>即時數位人與互動角色</h3><p>比較語音驅動口型同步與角色互動方式，關注影像品質、自然度與即時性的取捨。</p></article>
+          <article class="research-item"><span class="topic-label">TIME SERIES / NILM</span><h3>用電訊號與序列模型</h3><p>探索非侵入式負載監測、事件感知與序列模型，持續比較家電功率分解與事件偵測的方法。</p></article>
+        </div>
+      </section>
+
+      <section id="projects" class="section" aria-labelledby="projects-title">
+        <div class="section-heading"><div><p class="eyebrow">02 / SELECTED PROJECTS</p><h2 id="projects-title">一些正在做的專案</h2></div><a class="text-link" href="https://github.com/g114056175?tab=repositories" target="_blank" rel="noopener noreferrer">所有 GitHub 專案</a></div>
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-visual slide-visual" aria-hidden="true"><div class="slide-paper"><span></span><i></i><i></i><i></i></div><div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="visual-label">PDF / VOICE / VIDEO</span></div>
+            <div class="project-body"><p class="project-kind">AI · 多媒體</p><h3>SlideAI</h3><p>把 PDF 投影片、逐頁講稿與參考聲音，轉成語音簡報影片。支援局部修正、字幕與合併輸出。</p><div class="tags"><span>Python</span><span>Vue</span><span>TTS</span></div><a class="project-link" href="https://github.com/g114056175/SlideAI" target="_blank" rel="noopener noreferrer">查看 SlideAI</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual tools-visual" aria-hidden="true"><div class="window-shape"><div class="window-bar"><i></i><i></i><i></i></div><div class="window-grid"><span></span><span></span><span></span><span></span></div></div><span class="visual-label">CAPTURE / PREVIEW / UTILITY</span></div>
+            <div class="project-body"><p class="project-kind">C++ · 桌面應用</p><h3>my_tools</h3><p>Windows 小工具集合：區域錄影、視窗監視、滑鼠光跡、音訊錄製與 Word 轉 PDF。</p><div class="tags"><span>Windows</span><span>C++</span><span>Utilities</span></div><a class="project-link" href="https://github.com/g114056175/my_tools" target="_blank" rel="noopener noreferrer">查看工具集合</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual course-visual" aria-hidden="true"><div class="course-lines"><span>AIOT</span><span>DRL</span><span>IR</span><span>DSDP</span></div><span class="visual-label">LEARN / IMPLEMENT / EXPERIMENT</span></div>
+            <div class="project-body"><p class="project-kind">Python · 學習紀錄</p><h3>coursework</h3><p>研究所課程作業與成果，涵蓋 AIoT、深度強化學習、資訊檢索，以及資料結構與資料處理。</p><div class="tags"><span>Python</span><span>Learning</span><span>Experiments</span></div><a class="project-link" href="https://github.com/g114056175/coursework" target="_blank" rel="noopener noreferrer">查看課程成果</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="links" class="section links-section" aria-labelledby="links-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / CONNECTIONS</p><h2 id="links-title">實驗室與展示入口</h2></div></div>
+        <div class="link-grid">
+          <article class="connection-card"><p class="topic-label">LABORATORY</p><h3>AWIN Lab</h3><p>國立中興大學 · 前瞻無線資訊網路實驗室</p><a class="text-link" href="https://awinlabnchu.github.io/" target="_blank" rel="noopener noreferrer">前往實驗室網站</a></article>
+          <article class="connection-card demo-card"><div class="demo-heading"><p class="topic-label">PRIVATE DEMO</p><span class="restricted">受限存取</span></div><h3>實驗室 Demo</h3><p>僅供本人與實驗室成員使用。限台灣來源 IP，並設有密碼；未取得授權、服務關閉或不符合條件時，可能無法連線。</p><a class="text-link" href="https://awinlab-gate.g114056175.me/" target="_blank" rel="noopener noreferrer" aria-describedby="demo-note">開啟受限 Demo</a><p id="demo-note" class="access-note">此入口並非公開體驗服務。</p></article>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>g114056175 <span class="footer-separator">/</span> Research & Projects</span><span>持續更新 · 2026</span><a href="https://github.com/g114056175/g114056175.github.io" target="_blank" rel="noopener noreferrer">網站原始碼</a></footer>
+  </div>
+</body>
+</html>
